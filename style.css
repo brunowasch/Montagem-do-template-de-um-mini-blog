@@ -44,6 +44,7 @@ main {
 
 
 #posts .row {
+    
     padding-top: 80px;
     margin-bottom: 30px;
     display: flex;
@@ -96,6 +97,13 @@ main {
     font-size: 18px;
 }
 
+#post-detalhado {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+
+  
 .voltar-color-purple {
     background-color: rgb(96, 25, 163) ;
     color: white;
