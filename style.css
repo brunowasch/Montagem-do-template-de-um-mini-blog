@@ -90,3 +90,15 @@ main {
     color: rgb(96, 25, 163);
     font-weight: bold;
 }
+
+.voltar-color-purple {
+    background-color: rgb(96, 25, 163) ;
+    color: white;
+    font-weight: bold;
+}
+
+.voltar-color-purple:hover {
+    background-color: rgb(132, 71, 189) ;
+    color: white;
+    font-weight: bold;
+}

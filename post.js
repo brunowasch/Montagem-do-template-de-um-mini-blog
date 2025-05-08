@@ -13,7 +13,12 @@ const postsData = [
         title: "Post 2",
         body: "Matéria completa",
         image: "img/ex-img.jpg"
-    }
+    },
+    {
+      title: "Post 3",
+      body: "Matéria completa",
+      image: "img/ex-img.jpg"
+  }
   ];
   
   
