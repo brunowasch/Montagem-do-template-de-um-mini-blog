@@ -1,23 +1,23 @@
 const postsData = [
     {
       title: "Título da primeira postagem",
-      body: `Matéria completa`,
+      body: "Matéria completa",
       image: "img/ex-img.jpg"
     },
     {
       title: "Post 1",
-      body: `Matéria completa`,
+      body: "Matéria completa",
       image: "img/ex-img.jpg"
     },
     {
         title: "Post 2",
-        body: `Matéria completa`,
+        body: "Matéria completa",
         image: "img/ex-img.jpg"
     }
   ];
   
   
-  function carregarPost() {
+  function post() {
     const params = new URLSearchParams(window.location.search);
     const index = parseInt(params.get("index"));
     const post = postsData[index];
@@ -30,5 +30,5 @@ const postsData = [
     `;
   }
   
-  document.addEventListener("DOMContentLoaded", carregarPost);
+  document.addEventListener("DOMContentLoaded", post);
   
