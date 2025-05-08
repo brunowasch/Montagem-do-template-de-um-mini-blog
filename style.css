@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    padding-top: 80px;
+}
+
+.text-nav {
+    color: rgb(201, 160, 240);
+}
+
+
+.destaque-card {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.destaque-card h2 {
+    color: rgb(96, 25, 163);
+    font-weight: bold;
+}
+
+.destaque-card img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.destaque-card:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+
+.destaque-card .card-body {
+    text-align: center;
+}
+
+
+#posts .row {
+    padding-top: 80px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+#posts .col-md-4 img {
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+#posts .col-md-4 img:hover {
+    transform: scale(1.05);
+}
+
+
+.post-text h5 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: rgb(96, 25, 163);
+}
+
+.post-text h5:hover {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.post-text p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.post-text a {
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.color-purple {
+    color: rgb(96, 25, 163);
+    font-weight: bold;
+}
