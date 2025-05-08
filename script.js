@@ -1,6 +1,6 @@
 const postsData = [
   {
-    title: "Título postagem em destaque",
+    title: "Título da postagem em destaque",
     body: "Aqui vai uma pequena descrição do post",
     image: "img/ex-img.jpg"
   },
@@ -16,7 +16,13 @@ const postsData = [
   },
   {
     title: "Post 3",
-    body: "Informações do segundo post",
+    body: "Informações do terceiro post",
+    image: "img/ex-img.jpg"
+
+  },
+  {
+    title: "Post 4",
+    body: "Informações do quarto post",
     image: "img/ex-img.jpg"
 
   }

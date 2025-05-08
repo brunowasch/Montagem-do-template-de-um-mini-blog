@@ -1,6 +1,6 @@
 const postsData = [
     {
-      title: "Título da primeira postagem",
+      title: "Título da postagem em destaque",
       body: "Matéria completa",
       image: "img/ex-img.jpg"
     },
@@ -18,9 +18,15 @@ const postsData = [
       title: "Post 3",
       body: "Matéria completa",
       image: "img/ex-img.jpg"
+  },
+  {
+    title: "Post 4",
+    body: "Informações do quarto post",
+    image: "img/ex-img.jpg"
+
   }
   ];
-  
+
   
   function post() {
     const params = new URLSearchParams(window.location.search);
@@ -34,6 +40,7 @@ const postsData = [
       <p class="mb-3 text-center">${post.body}</p>
     `;
   }
+
   
   document.addEventListener("DOMContentLoaded", post);
   
