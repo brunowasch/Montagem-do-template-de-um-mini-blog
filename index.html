@@ -37,16 +37,17 @@
         </div>
         
         <div class="row" id="posts">
-          <div class="col-md-4 mb-4" ng-repeat="publicacao in publicacoes.slice(1)">
+        <div class="col-md-4 mb-4" ng-repeat="publicacao in publicacoes.slice(1) track by $index">
+          <a href="post.html?index={{$index + 1}}" class="text-decoration-none text-dark">
             <div class="card h-100">
-
-              <img ng-src="{{publicacao.thumbImage}}" class="img-fluid rounded-top">
+              <img ng-src="{{publicacao.thumbImage}}" class="img-fluid rounded-top" alt="{{publicacao.title}}">
               <div class="card-body">
                 <h2 class="card-title text-center">{{publicacao.title}}</h2>
                 <p class="card-text text-center">{{publicacao.description}}</p>
               </div>
             </div>
-          </div>
+          </a>
+        </div>
         </div>
         
       </div>
