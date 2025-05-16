@@ -115,3 +115,11 @@ main {
     color: white;
     font-weight: bold;
 }
+
+.row {
+  margin-bottom: 20px;
+}
+
+.row:first-child {
+  margin-top: 20px;
+}
